@@ -18,6 +18,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* parameters for the header section */
 }
 
@@ -178,11 +179,12 @@
 .feynman {
   position: relative;
   height: 790px;
-  background-image: url(images/feynman.png); /*Why is image not loading or downloading to browser even though it is in image folder?*/
+  background-image: url(../images/feynman.png);/*image is not loading for some reason*/
   background-repeat: no-repeat;
   background-position: left bottom;
   display: flex;
   justify-content: center;
+  background-color: #f2f2f2;
 }
 
 
@@ -217,8 +219,7 @@
 
 .kaufman{
   background-color: #1f1f1f;
-  background-image: url(images/kaufman-triangle.svg); /*Why is image not loading or downloading to browser even though it is in image folder?*/
-  background-repeat: no-repeat;
+  background-image: url(../images/kaufman-triangle.svg); /*image is not loading for some reason*/
   background-repeat: no-repeat;
   background-position-x: 500px;
   display: flex;
