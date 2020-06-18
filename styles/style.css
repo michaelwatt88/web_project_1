@@ -14,6 +14,7 @@
 .header {
   display: flex;
   align-items: center;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -29,10 +30,8 @@
 }
 
 .header__title{
-  display: flex;
-  align-items: center;
   width: 730px;
-  padding-left: 64px;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -177,21 +176,18 @@
 }
 
 .feynman {
+  position: relative;
   height: 790px;
   background-image: url(/Users/mac/web_project_1/images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 
 .feynman__titles{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: 100px;
 }
 
 .feynman__title{
@@ -212,6 +208,7 @@
 
 .feynman__link{
   position: absolute;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -220,13 +217,14 @@
 
 .kaufman{
   background-color: #1f1f1f;
-  background-image: url(/Users/mac/web_project_1/images/kaufman-triangle.svg);
+  background-image: url(images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   background-position-x: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position:relative;
 }
 
 .kaufman__titles{
