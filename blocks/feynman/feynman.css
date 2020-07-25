@@ -1,0 +1,21 @@
+
+@import url("./__link/feynman__link.css");
+@import url("./__subtitle/feynman__subtitle.css");
+@import url("./__title/feynman__title.css");
+
+.feynman {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    min-height: 790px;
+    background-image: url(../images/feynman.png);/*image is not loading for some reason*/
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+

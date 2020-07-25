@@ -1,0 +1,7 @@
+.table__cell{
+    width: 250px;
+    margin-top: 60px;
+  }
+
+  @import url("styles/table/__cell/_theme/table__cell_theme_dark.css");
+  
