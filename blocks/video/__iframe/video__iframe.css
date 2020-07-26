@@ -1,7 +1,9 @@
 .video__iframe{
     width:515px; 
     height:360px;
+    margin: 0 10px;
+    border: 0;
   }
   
-  @import url("styles/video/__iframe/margin/video__iframe_margin_right.css");
+
   

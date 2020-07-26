@@ -7,3 +7,8 @@
     font-style: normal;
     color: black;
   }
+
+.feynman__link:hover{
+  margin: 0 10px 0 10px; 
+  color: white;
+}

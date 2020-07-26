@@ -2,3 +2,8 @@
     color: #2f80ed;
     margin-top: 0;
   }
+
+ .header__link:hover{
+  margin: 0 10px 0 10px; 
+  color: white;
+ }
