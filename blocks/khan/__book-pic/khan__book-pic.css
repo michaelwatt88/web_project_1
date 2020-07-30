@@ -3,5 +3,6 @@
     z-index: 1;
     width: 620px;
     height: 608px;
-    object-fit: fill; 
+    object-fit: cover; 
+    object-position: top;
   }
